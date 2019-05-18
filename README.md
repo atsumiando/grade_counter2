@@ -3,7 +3,8 @@ Calculate total scores, return grades(A, B, C etc...), and provide distribution 
 
 It is python codes and use "python grade_counter2.py -i input_file -o output_file -r 5 -c 7 -t 300 -q yes -s 3 -e 8'" to run!
 
-# File format 
+# File format
+Example of input_file is provided as grades.txt. 
 
 	Name	ID	quiz1	quiz2	quiz3	quiz4	exam1	exam2	journal_club	attendance	assignment	
 	Points	total	10	10	10	10	100	100	20	20	20	
@@ -36,11 +37,13 @@ grade_counter.py requires -i input_file -o output_file -r row_number -c column_n
 
 # Outcome
 
-Total scores and grades for each students is provided as output_file.txt as followings. 
+Total scores and grades for each students is provided as output_file.txt as followings.
+
+Example of out_file is provided as finalgrades.txt. 
 
 	NAME1	id1 250	B #from 2nd_line(students total scores and grade)
 	NAME2	id2 231	C #from 2nd_line(students total scores and grade)
 
 Setting of grades are A>=92%, 92%>A->88%, 88%>B+>=84%, 84%>B>=80%, 80%>B->=76%, 76%>C+>=72%, 72%>C>=68%, 68%>C->=64%, 64%>D+>=60, 60%>D>=56%, 56%>D->=52%, and F<52%.
 
-Distribution of grades and count of students (by histogram) is provided as output_file.pdf. 
+Distribution of grades and count of students (by histogram) is provided as output_file.pdf. Example of out_file is provided as finalgrades.pdf. 
