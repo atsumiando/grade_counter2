@@ -1,7 +1,7 @@
 # grade_counter2
 Calculate total scores, return grades(A, B, C etc...), and provide distribution histogram of grades with functions of removing minimum score of quizzes.
 
-It is python codes and use "python grade_counter2.py -i input_file -o output_file -r 5 -c 7 -t 300 -q yes -s 3 -e 8'" to run!
+It is python codes and use "python grade_counter2.py -i input_file -o output_file -r 5 -c 7 -t 300 -q yes -s 3 -e 8" to run!
 
 # File format
 Example of input_file is provided as grades.txt. 
