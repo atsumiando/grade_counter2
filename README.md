@@ -14,7 +14,8 @@ Example of input_file is provided as grades.txt.
 # Description of file format
 Quizzes should locate first part of scores. 
 
-grade_counter.py requires -i input_file -o output_file -r row_number -c column_number -t total_maximum_score -q quiz_removal_selection <optional> -s quiz_start_column -e quiz_end_column 
+grade_counter.py requires "-i input_file -o output_file -r row_number -c column_number -t total_maximum_score -q quiz_removal_selection"
+and optional for "-s quiz_start_column -e quiz_end_column". 
  
  -h, --hele   show this help message and exit
  
