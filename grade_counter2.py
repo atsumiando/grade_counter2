@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from collections import Counter
 from collections import defaultdict
 
-parser = argparse.ArgumentParser(usage='grade_counter2.py -i input_file -o output_file -r 5 -c 7 -t 300 -q yes -s 3 -e 8', add_help=True,formatter_class=argparse.RawDescriptionHelpFormatter)
+parser = argparse.ArgumentParser(usage='python grade_counter2.py -i input_file -o output_file -r 5 -c 7 -t 300 -q yes -s 3 -e 8', add_help=True,formatter_class=argparse.RawDescriptionHelpFormatter)
 parser.add_argument('-i','--input',help = 'input file name', required=True)
 parser.add_argument('-o', '--output', help = 'output file name',required=True)
 parser.add_argument('-r', '--row',help = 'row number; start position of grading in input file', type=int,required=True)
